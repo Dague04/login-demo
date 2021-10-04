@@ -1,0 +1,62 @@
+.login-container {
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+    padding: 0;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.login__header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 98px;
+    padding-top: 64px;
+}
+
+
+.login__header-image {
+    width: 53px;
+    height: 53px;
+}
+
+.login__form {
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 97px;
+    justify-content: center;
+}
+
+.login__form-group {
+    margin-bottom: 19px;
+}
+
+input[type=text], input[type=password] {
+    background-color: #fafafa;
+    height: 45px;
+    color: black;
+
+}
+
+.login__error-text {
+    margin-bottom: 14px;
+    color: #cb5b5b;
+}
+
+.isVisible {
+    visibility: hidden;
+}
+
+.text-block {
+    display: block;
+}
+
+.login-button {
+    display: block;
+    display: flex;
+    justify-self: center;
+    width: 118px;
+    height: 45px;
+}
+
